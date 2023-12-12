@@ -9,7 +9,7 @@ homepage = "https://github.com/lulf/embedded-storage-inmemory"
 documentation = "https://docs.rs/embedded-storage-inmemory"
 readme = "README.md"
 keywords = ["storage"]
-categories = ["embedded", "hardware-support"]
+categories = ["embedded", "hardware-support", "development-tools::testing"]
 
 [dependencies]
 embedded-storage = "0.3"
