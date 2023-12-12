@@ -2,6 +2,14 @@
 name = "embedded-storage-inmemory"
 version = "0.1.0"
 edition = "2021"
+description = "An in-memory implementation of embedded-storage"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/lulf/embedded-storage-inmemory"
+homepage = "https://github.com/lulf/embedded-storage-inmemory"
+documentation = "https://docs.rs/embedded-storage-inmemory"
+readme = "README.md"
+keywords = ["storage"]
+categories = ["embedded", "hardware-support", "test"]
 
 [dependencies]
 embedded-storage = "0.3"
