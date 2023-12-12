@@ -1,0 +1,11 @@
+[package]
+name = "embedded-storage-inmemory"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-storage = "0.3"
+embedded-storage-async = "0.4"
+
+[features]
+nightly = []
