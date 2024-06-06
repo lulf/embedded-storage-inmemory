@@ -10,7 +10,7 @@ pub struct MemFlash<const SIZE: usize, const ERASE_SIZE: usize, const WRITE_SIZE
     pub mem: [u8; SIZE],
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct MemFlashError;
 
 impl<const SIZE: usize, const ERASE_SIZE: usize, const WRITE_SIZE: usize> MemFlash<SIZE, ERASE_SIZE, WRITE_SIZE> {
